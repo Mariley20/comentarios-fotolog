@@ -1,83 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FOTOLOG - ..::ÁrÉnItÁ .´´´ ÁmíGáS x CrÉw::..</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>FOTOLOG - Flores</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 logo">
-					<img src="img/fotolog-logo.png" alt="">
-				</div>
-			</div>
-		</div>
-	</header>
-	<section id="bannerflog">
-		<div class="container">
-			<div class="col-md-12 text-center">
-				<h1>..::ÁrÉnItÁ .´´´ ÁmíGáS x CrÉw::..</h1>
-			</div>
-		</div>
-	</section>
-	<section id="contenido">
-		<div class="container">
-			<div class="col-md-2 recientes">
-				<a href="" class="fotos">Fotos Recientes</a>
-				<img src="img/jarcor.jpg">
-				<img src="img/foto_0920140822124434.jpg" alt="">
-				<img src="img/i-62869.jpeg" alt="">
-				<img src="img/p3.jpg" alt="">
-			</div>
-			<div class="col-md-8">
-				<img src="img/m1_768_11MS.jpg" alt="">
-				<p>AqUi EStAáá Mi AmIgA ArEnItAáÁÁ</p>
-			</div>
-			<div class="col-md-2 recientes">
-				<a href="" class="fotos">Fotos Recientes</a>
-				<img src="img/jarcor.jpg">
-				<img src="img/foto_0920140822124434.jpg" alt="">
-				<img src="img/i-62869.jpeg" alt="">
-				<img src="img/p3.jpg" alt="">
-			</div>
-		</div>
-	</section>
-	<section class="formulario">
-		<div class="container" id="caja">
-			<div class="row">
-				<div class="col-md-offset-3 col-md-6">
-					<form Name="formulario">
-						<h3>Nombre</h3>
-						<input type="text" id="clave">
-						<h3>Comentario</h3>
-						<textarea id="valor"></textarea>
-						<p id="datos"></p>
-					</form>
-						<button id="guardarDatos">Guardar</button><button id="limpiarDatos">Limpiar Datos</button>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="container">
-		<div class="row">
-			<div class="col-md-offset-3 col-md-6">
-				<div id="comentarios"></div>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<div class="row">
-			<div class="col-md-12">
-				<p class="text-center">Laboratoria 2017</p>
-			</div>
-		</div>
-	</footer>
-	
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 logo col-sm-3 col-xs-3">
+                    <img src="img/fotolog-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="bannerflog">
+        <div class="container">
+            <div class="col-md-12 text-center col-sm-12 col-xs-12">
+                <h1>Yo Amo los Animalitos</h1>
+            </div>
+        </div>
+    </section>
+    <section id="contenido">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-2 recientes">
+                    <a href="" class="fotos">Fotos Recientes</a>
+                    <img src="img/gatito.jpg">
+                    <img src="img/patito.jpg" alt="">
+                    <img src="img/pets.jpg" alt="">
+                    <img src="img/conejito.jpg" alt="">
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 text-center">
+                    <img src="img/pets3.jpg" alt="My hanster">
+                    <p>Yo Amo los animalitos </p>
+                    <div class="row text-center">
+                        <div class="col-md-offset-3 col-md-6 col-sm-6 col-xs-6">
+                            <form id="contactForm" name="sentMessage" novalidate>
+                                <div class="form-group">
+                                    <input class="form-control" id="clave" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="valor" placeholder="Your commentary *" required data-validation-required-message="Please enter a commentary."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class=" text-center">
+                                    <div id="success"></div>
+                                    <button id="guardarDatos" class="btn btn-primary" type="button">Guardar</button>
+                                    <button id="limpiarDatos" class="btn btn-primary" type="button">Limpiar Data</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2 recientes">
+                    <a href="" class="fotos">Fotos Recientes</a>
+                    <img src="img/pets4.jpg">
+                    <img src="img/pollito.jpg" alt="">
+                    <img src="img/flor1.jpg" alt="">
+                    <img src="img/flor2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 tablaComentario ">
+                <div id="comentarios"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p class="text-center">Laboratoria 2017</p>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
