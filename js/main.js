@@ -15,6 +15,7 @@ $('#guardarDatos').click(() => {
 });
 $('#limpiarDatos').click(() => {
     localStorage.clear();
+    recoverData();
 });
 
 function recoverData() {

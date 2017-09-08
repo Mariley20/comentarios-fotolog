@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>FOTOLOG - Flores</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -40,7 +41,7 @@
                     <img src="img/pets3.jpg" alt="My hanster">
                     <p>Yo Amo los animalitos </p>
                     <div class="row text-center">
-                        <div class="col-md-offset-3 col-md-6 col-sm-6 col-xs-6">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
                             <form id="contactForm" name="sentMessage" novalidate>
                                 <div class="form-group">
                                     <input class="form-control" id="clave" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
@@ -70,9 +71,9 @@
             </div>
         </div>
     </section>
-    <section class="container">
+    <section id="comentar" class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12 tablaComentario ">
+            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 tablaComentario ">
                 <div id="comentarios"></div>
             </div>
         </div>
@@ -84,7 +85,8 @@
             </div>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 

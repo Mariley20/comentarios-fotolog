@@ -58,11 +58,12 @@ input {
     border: 1px solid DeepPink;
 }
 /* Estilos comentarios */
-
+#comentar{
+  width: 100%;
+}
 .tablaComentario {
     background: rgba(244, 67, 54, 0.85);
     border-radius: 5px;
-    width: 70%;
     margin: 10px;
 }
 #comentarios div {
